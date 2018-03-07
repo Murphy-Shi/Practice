@@ -1,0 +1,13 @@
+package AprocessControl;
+import java.util.*;
+
+public class Echo {
+	public void Scanner() {
+		String message;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter a line of text:  ");
+		message = scan.nextLine();
+		System.out.println("You entered: \'" + message + "\'");
+		scan.close();
+	}
+}
