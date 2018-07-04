@@ -91,5 +91,6 @@ def readImage(fp):
         # return readData(fp)
         return fp.read
     return None
+print('heeelo')
 
 # 1.4 实例属性和类属性
